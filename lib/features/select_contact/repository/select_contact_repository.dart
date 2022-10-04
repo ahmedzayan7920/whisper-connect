@@ -35,21 +35,21 @@ class SelectContactRepository {
           .get();
 
       if (allFirebaseUsers.docs.isNotEmpty) {
-        for(int i = 0 ; i< allFirebaseUsers.docs.length ; i++){
+        for (int i = 0; i < allFirebaseUsers.docs.length; i++) {
           UserModel user = UserModel.fromMap(allFirebaseUsers.docs[i].data());
           allUsers.add(user);
         }
       }
       for (var i = 0; i < allContacts.length; i++) {
         for (int j = 0; j < allContacts[i].phones.length; j++) {
-          for (var k = 0; k < allUsers.length; k++){
-            if (allContacts[i].phones[j].number.replaceAll(" ", "") == allUsers[k].phoneNumber){
+          for (var k = 0; k < allUsers.length; k++) {
+            if (allContacts[i].phones[j].number.replaceAll(" ", "") ==
+                allUsers[k].phoneNumber) {
               appContacts.add(allContacts[i]);
             }
           }
         }
       }
-
     } catch (error) {
       debugPrint(error.toString());
     }
