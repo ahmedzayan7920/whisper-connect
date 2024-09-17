@@ -1,6 +1,6 @@
-<h1>Chat App</h1>
+<h1>Whisper Connect (Whatsapp Clone)</h1>
 
-<p><strong>Chat App</strong> is a Flutter-based application designed to enable seamless communication between users through real-time messaging. With a user-friendly interface and reliable performance, it provides an efficient way to stay connected.</p>
+<p><strong>Whisper Connect</strong> is a Flutter-based application designed to enable seamless communication between users through real-time messaging. With a user-friendly interface and reliable performance, it provides an efficient way to stay connected.</p>
 
 <h2>Features</h2>
 <ul>
@@ -18,10 +18,10 @@
 <p>To get started with Chat App, follow these steps:</p>
 <ol>
   <li><strong>Clone the Repository</strong>
-    <pre><code>git clone https://github.com/ahmedzayan7920/chat_app.git</code></pre>
+    <pre><code>git clone https://github.com/ahmedzayan7920/whisper-connect.git</code></pre>
   </li>
   <li><strong>Navigate to the Project Directory</strong>
-    <pre><code>cd chat_app</code></pre>
+    <pre><code>cd whisper-connect</code></pre>
   </li>
   <li><strong>Install Dependencies</strong>
     <pre><code>flutter pub get</code></pre>
